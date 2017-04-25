@@ -1,3 +1,7 @@
+#Set up your computer to easily interact during "Intro to Shiny" Workshop (May 3, 2017).
+#Code will create "ShinyWorkshop" folder in your working directory AND install any missing R packages needed.
+#Code will also open HTML page to allow you to follow along with code walkthrough during workshop.
+
 #Create new folder "ShinyWorkshop" to put files into:
   mainDir <- getwd()
   subDir <- 'ShinyWorkshop'
@@ -16,3 +20,4 @@
 
 #Download/install necessary packages and open Read-along document
   source("runShinyWorkshop.R")
+
