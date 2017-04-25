@@ -6,3 +6,4 @@ lapply(c(needed.packages,"knitr"), library, character.only = T)
 setwd("./IntroToShinyWorkshop")
 
 rmarkdown::run("./IntroToShinyWorkshop.Rmd")
+
